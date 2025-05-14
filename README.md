@@ -15,4 +15,5 @@ This plugin for phBot automates the daily attendance check‑in and claims of th
    phBot/Plugins/ZengerAutoDaily.py
 
 3-edit date month and day and year in script 
+
 4- make you contitions in phbot relog in time UTC +3 script run once when you login-in and to make new day need re-login 

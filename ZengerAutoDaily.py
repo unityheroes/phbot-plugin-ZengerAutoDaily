@@ -40,8 +40,8 @@ def joined_game():
     if get_locale() in [18, 65, 52, 56]:
         is_connected = True
         QtBind.setText(gui, lblStatus, "Status: Connected")
-        # Wait 5 seconds after login before starting check-in
-        Timer(5.0, start_auto_sequence).start()
+        # Wait 10 seconds after login before starting check-in
+        Timer(10.0, start_auto_sequence).start()
 
 
 def handle_joymax(opcode, data):
